@@ -6,23 +6,39 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: aquamarine;
     padding: 20px;
 
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color: grey;
+    background-color: #183a4a;
 
 }
 
-p {
-    /* text-transform: uppercase; */
-    font-size: 30px;
-    /* color: white; */
+.square {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.violet {
+    background-color: violet;
 }
