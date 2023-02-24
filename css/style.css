@@ -7,15 +7,25 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
+    color: white;
 
+}
+
+h1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #183a4a;
+    text-align: center;
+    padding: 10px;
 }
 
 .container {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     background-color: #183a4a;
+
 
 }
 
@@ -27,8 +37,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: 26px; */
-    color: white;
     font-weight: bold;
 
 }
